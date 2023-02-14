@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="OnClick"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:id="@+id/userId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:fontFamily="sans-serif-light"
+            android:hint="id"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:fontFamily="sans-serif-light"
+            android:hint="username"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/userFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:fontFamily="sans-serif-light"
+            android:hint="firstName"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/userLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:fontFamily="sans-serif-light"
+            android:hint="lastName"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:fontFamily="sans-serif-light"
+            android:hint="email"
+            android:inputType="textPersonName"
+            tools:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/userPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:fontFamily="sans-serif-light"
+            android:hint="password"
+            android:inputType="textPersonName"
+            tools:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/userPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:fontFamily="sans-serif-light"
+            android:hint="phone"
+            android:inputType="textPersonName"
+            tools:inputType="phone" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:onClick="OnClick"
+            android:text="Registration" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
